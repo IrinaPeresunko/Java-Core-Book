@@ -29,6 +29,7 @@ public class BigIntegerTest
                BigInteger.valueOf(i));
 
       System.out.println("Your odds are 1 in " + lotteryOdds + ". Good luck!");
+      in.close();
    }
 }
 

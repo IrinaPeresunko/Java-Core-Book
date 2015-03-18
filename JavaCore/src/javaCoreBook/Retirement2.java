@@ -41,6 +41,7 @@ public class Retirement2
          input = in.next();
       }
       while (input.equals("N"));
+      in.close();
    }
 }
 

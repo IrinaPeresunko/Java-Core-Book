@@ -42,6 +42,7 @@ public class LotteryDrawing
       System.out.println("Bet the following combination. It'll make you rich!");
       for(int i=0;i<result.length;i++){
     	  System.out.println(result[i]);
+    	  in.close();
       }
    }
 }

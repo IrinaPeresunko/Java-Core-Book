@@ -24,10 +24,10 @@ public class IteratorTest {
 		
 		while((it.hasNext() && it.hasNextArrayList())==true){
 			MenuItem item=it.next();
-			System.out.println(item.getName());
+			System.out.println(item.getName()+" - price: "+item.getPrice());
 			
 			item=it.nextArrayList();
-			System.out.println(item.getName());
+			System.out.println(item.getName()+" - price: "+item.getPrice());
 		}
 	}
 }

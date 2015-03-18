@@ -36,5 +36,6 @@ public class Retirement
       }
 
       System.out.println("You can retire in " + years + " years.");
+      in.close();
    }
 }
