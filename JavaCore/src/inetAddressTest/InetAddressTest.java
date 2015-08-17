@@ -1,4 +1,4 @@
-package inetAdressTest;
+package inetAddressTest;
 import java.net.*;
 
 /**
